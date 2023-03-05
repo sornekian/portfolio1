@@ -13,16 +13,16 @@ const Sidebar = () => (
         </Link>
         <nav>
             <NavLink exact="true" activeclassname="active" to="/">
-                <FontAwesomeIcon icon={faHome} color="#c8aa8b" />
+                <FontAwesomeIcon icon={faHome} />
             </NavLink>
-            <NavLink exact="true" activeclassname="active" className="about-link" to="/">
-                <FontAwesomeIcon icon={faUser} color="#c8aa8b" />
+            <NavLink exact="true" activeclassname="active" className="about-link" to="/about">
+                <FontAwesomeIcon icon={faUser} />
             </NavLink>
             <NavLink exact="true" activeclassname="active" className="project-link" to="/">
-                <FontAwesomeIcon icon={faPuzzlePiece} color="#c8aa8b" />
+                <FontAwesomeIcon icon={faPuzzlePiece} />
             </NavLink>
             <NavLink exact="true" activeclassname="active" className="contact-link" to="/">
-                <FontAwesomeIcon icon={faEnvelope} color="#c8aa8b" />
+                <FontAwesomeIcon icon={faEnvelope} />
             </NavLink>
         </nav>
         {/* <ul>

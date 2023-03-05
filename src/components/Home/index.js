@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { useState, useEffect } from 'react';
-import AnimatedLetters from '../AnimatedLetters';
+// import AnimatedLetters from '../AnimatedLetters';
 import './index.scss'
 
 const Home = () => {
