@@ -7,6 +7,8 @@
 .top-tags {
     bottom: auto;
     top: 105px;
+    animation: fadeIn 1s forwards;
+    animation-delay: 1s;
 }
 
 .tags {
@@ -17,10 +19,14 @@
     left: 120px;
     font-size: 18px;
     font-family: 'La Belle Aurore';
+    animation: fadeIn 1s forwards;
+    animation-delay: 1s;
 }
 
 .bottom-tag-html {
     margin-left: -20px;
+    animation: fadeIn 1s forwards;
+    animation-delay: 1s;
 }
 
 .container {
@@ -30,10 +36,11 @@
     min-height: 566px;
     position: absolute;
     opacity: 0;
-    top: 5%;
+    top: 1%;
     margin: 0 auto;
     z-index: 1;
     transform-style: preserve-3d;
     animation: fadeIn 1s forwards;
     animation-delay: 1s;
+    max-width: 100%;
 }
