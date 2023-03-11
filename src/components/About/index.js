@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './index.scss';
 import AnimatedLetters from '../AnimatedLetters';
+import Loader from 'react-loaders';
 
 export default function About() {
   const [letterClass, setLetterClass] = useState('text-animate');
@@ -12,6 +13,7 @@ export default function About() {
   }, []);
 
   return (
+    <>
     <div className='container about-page'>
       <div className='text-zone'>
         <h1>
@@ -38,5 +40,7 @@ export default function About() {
         </p>
       </div>
     </div>
+    <Loader type="pacman" />
+    </>
   );
 }

@@ -17,10 +17,10 @@ export default function Sidebar() {
         <NavLink exact="true" activeclassname="active" className="about-link" to="/about">
           <FontAwesomeIcon icon={faUser} />
         </NavLink>
-        <NavLink exact="true" activeclassname="active" className="project-link" to="/">
+        <NavLink exact="true" activeclassname="active" className="project-link" to="/projects">
           <FontAwesomeIcon icon={faPuzzlePiece} />
         </NavLink>
-        <NavLink exact="true" activeclassname="active" className="contact-link" to="/">
+        <NavLink exact="true" activeclassname="active" className="contact-link" to="/contact">
           <FontAwesomeIcon icon={faEnvelope} />
         </NavLink>
       </nav>

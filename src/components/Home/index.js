@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import AnimatedLetters from '../AnimatedLetters';
+import Loader from 'react-loaders';
 import './index.scss'
 
 export default function Home() {
@@ -8,7 +9,7 @@ export default function Home() {
 
   const phraseArray = ['H', 'e', 'l', 'l', 'o', ',', '', 'm', 'y', '', 'n', 'a', 'm', 'e', '', 'i', 's']
 
-  const welcomeArray = ['w', 'e', 'l', 'c', 'o', 'm', 'e', '', 't', 'o', '', 'm', 'y', '', 'p', 'o', 'r', 't', 'f', 'o', 'l', 'i', 'o', '!' ] 
+  const welcomeArray = ['w', 'e', 'l', 'c', 'o', 'm', 'e', '', 't', 'o', '', 'm', 'y', '', 'p', 'o', 'r', 't', 'f', 'o', 'l', 'i', 'o', '!', ''] 
 
   useEffect(() => {
     setTimeout(() => {
@@ -35,10 +36,11 @@ export default function Home() {
               idx={22}
             />
           </h1>
-          <h2>Software Engineer / Front End Developer</h2>
+          <h2>Software Engineer / Full Stack Developer</h2>
           <Link to="/contact" className='flat-button'>Contact Me</Link>
         </div>
       </div>
+      <Loader type="pacman" />
     </>
   )
 }
