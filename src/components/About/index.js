@@ -24,7 +24,7 @@ export default function About() {
           />
         </h1>
         <p>
-          I'm a young, ambitious, American Armenian front-end developer looking
+          I'm a young, ambitious, American Armenian full-stack developer looking
           for a role in an established company with the opportunity to work with
           challenging and diverse projects.
         </p>
