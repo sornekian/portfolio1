@@ -3,6 +3,8 @@ import { Link, NavLink } from 'react-router-dom';
 import LogoS from '../../assets/images/logo-s.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHome, faUser, faEnvelope, faPuzzlePiece } from '@fortawesome/free-solid-svg-icons';
+import { faLinkedin, faGithub, } from '@fortawesome/free-brands-svg-icons';
+
 
 export default function Sidebar() {
   return (
@@ -24,13 +26,13 @@ export default function Sidebar() {
           <FontAwesomeIcon icon={faEnvelope} />
         </NavLink>
       </nav>
-      {/* <ul>
+      <ul className="socials">
           <li>
               <a target="_blank"
               rel="noreferrer"
               href="https://www.linkedin.com/in/sarven-ornekian/"
               >
-                  <FontAwesomeIcon icon="fa-brands fa-linkedin" color="#c8aa8b" />
+                  <FontAwesomeIcon icon={faLinkedin} color="grey" className="anchor-icon" />
               </a>
           </li>
           <li>
@@ -38,10 +40,10 @@ export default function Sidebar() {
               rel="noreferrer"
               href="https://github.com/sornekian"
               >
-                  <FontAwesomeIcon icon="fa-brands fa-square-github" color="#c8aa8b" />
+                  <FontAwesomeIcon icon={faGithub} color="grey" className="anchor-icon" />
               </a>
           </li>
-      </ul> */}
+      </ul>
     </div>
   );
 }

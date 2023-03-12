@@ -1,0 +1,32 @@
+{
+    "portfolio": [
+        {
+            "cover": "/portfolio/1/APG Home.png",
+            "title": "Armenian Professional Group",
+            "description": "Networking for Professionals",
+            "technology": "React, MongoDB, Express, Node.js",
+            "url": "https://github.com/sornekian/APG"
+        },
+        {
+            "cover": "/portfolio/1/cosmiccompanion.png",
+            "title": "Cosmic Companion",
+            "description": "Cosmic Event Tracker",
+            "technology": "Python3, Django, PostgreSQL",
+            "url": "https://cosmiccompanion.herokuapp.com/"
+        },
+        {
+            "cover": "/portfolio/1/hyemuscle.png",
+            "title": "Hye Muscle",
+            "description": "Muscle Car Form",
+            "technology": "JavaScript, MongoDB, Express, Node.js",
+            "url": "https://hyemuscle.herokuapp.com/"
+        },
+        {
+            "cover": "/portfolio/1/blackjack.png",
+            "title": "Blackjack",
+            "description": "A unique card game experience",
+            "technology": "HTML, CSS, JavaScript",
+            "url": "https://sornekian.github.io/Blackjack-Game/"
+        }
+    ]
+}
