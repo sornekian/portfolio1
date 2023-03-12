@@ -53,7 +53,7 @@
         .title {
             margin-bottom: 0;
             margin-top: 0;
-            color: red;
+            color: whitesmoke;
             font-size: 24px;
             font-weight: 500;
             line-height: 24px;
@@ -62,14 +62,14 @@
         .description {
             font-size: 18px;
             margin-bottom: 5px;
-            color: blue;
+            color: whitesmoke;
             font-weight: 700px;
         }
 
         .technology {
             font-size: 14px;
             margin-bottom: 5px;
-            color: orange;
+            color: whitesmoke;
             font-weight: 600px;
         }
 
@@ -97,7 +97,7 @@
 
         &:after {
             content: "";
-            background: linear-gradient(180deg, #FF7F00, #000);
+            background: linear-gradient(180deg, red, #000);
             position: absolute;
             left: 0;
             right: 0;
