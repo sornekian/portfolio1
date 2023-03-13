@@ -5,7 +5,7 @@
             "title": "Armenian Professional Group",
             "description": "Networking for Professionals",
             "technology": "React, MongoDB, Express, Node.js",
-            "url": "https://github.com/sornekian/APG"
+            "url": "https://apg.herokuapp.com/"
         },
         {
             "cover": "/portfolio/1/cosmiccompanion.png",
