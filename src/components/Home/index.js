@@ -9,7 +9,7 @@ export default function Home() {
 
   const phraseArray = ['H', 'e', 'l', 'l', 'o', ',', '', 'm', 'y', '', 'n', 'a', 'm', 'e', '', 'i', 's']
 
-  const welcomeArray = ['w', 'e', 'l', 'c', 'o', 'm', 'e', '', 't', 'o', '', 'm', 'y', '', 'p', 'o', 'r', 't', 'f', 'o', 'l', 'i', 'o', '!', ''] 
+  const welcomeArray = ['w', 'e', 'l', 'c', 'o', 'm', 'e', '', 't', 'o', '', 'm', 'y', '', '', 'p', 'o', 'r', 't', 'f', 'o', 'l', 'i', 'o', '!', ''] 
 
   useEffect(() => {
     setTimeout(() => {

@@ -5,7 +5,7 @@
         left: 10%;
         top: 30%;
         transform: translate(10%);
-        width: 40%;
+        width: 45%;
         max-height: 9%;
     }
 
@@ -68,6 +68,33 @@
         &:hover {
             background: #FF7F00;
             color: #ffffff;
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+    .tags,
+    .home-page h1::before,
+    .home-page h1::after {
+        display: none;
+    }
+
+    .home-page {
+        .text-zone {
+            position: initial;
+            width: 100%;
+            transform: none;
+            padding: 10px;
+            box-sizing: border-box;
+            margin-top: 15%;
+        }
+
+        .flat-button {
+            float: none;
+            display: block;
+            margin: 20px auto 0 auto;
+            width: 125px;
         }
     }
 }

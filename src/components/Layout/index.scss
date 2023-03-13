@@ -6,7 +6,7 @@
 
 .top-tags {
     bottom: auto;
-    top: 105px;
+    top: 90px;
     animation: fadeIn 1s forwards;
     animation-delay: 1s;
 }
@@ -15,7 +15,7 @@
     color: #FF7F00;
     opacity: 0.6;
     position: absolute;
-    bottom: 30px;
+    bottom: 25px;
     left: 120px;
     font-size: 18px;
     font-family: 'La Belle Aurore';
@@ -119,6 +119,32 @@
     .text-animate-hover {
         &:hover {
             color: white;
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .page {
+        position: initial;
+    }
+
+    .container {
+        position: initial;
+        height: auto;
+        min-height: auto;
+
+        &.about-page,
+        &.contact-page,
+        &.projects-page {
+            .text-zone {
+                position: initial;
+                transform: none;
+                width: 100%;
+                display: block;
+                padding: 20px;
+                box-sizing: border-box;
+                margin-top: 15%;
+            }
         }
     }
 }
