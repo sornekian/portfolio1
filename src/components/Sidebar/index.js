@@ -1,10 +1,10 @@
-import "./index.scss";
 import { Link, NavLink } from 'react-router-dom';
 import { useState } from "react";
 import LogoS from '../../assets/images/logo-s.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHome, faUser, faEnvelope, faPuzzlePiece, faBars, faClose } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin, faGithub, } from '@fortawesome/free-brands-svg-icons';
+import "./index.scss";
 
 
 export default function Sidebar() {
