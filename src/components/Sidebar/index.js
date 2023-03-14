@@ -2,8 +2,9 @@ import { Link, NavLink } from 'react-router-dom';
 import { useState } from "react";
 import LogoS from '../../assets/images/logo-s.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHome, faUser, faEnvelope, faPuzzlePiece, faBars, faClose } from '@fortawesome/free-solid-svg-icons';
-import { faLinkedin, faGithub, } from '@fortawesome/free-brands-svg-icons';
+import { faHome, faUser, faEnvelope, faPuzzlePiece, faBars, faClose, faFile } from '@fortawesome/free-solid-svg-icons';
+import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
+import resume from "../../assets/resume.pdf"
 import "./index.scss";
 
 
@@ -33,6 +34,14 @@ export default function Sidebar() {
         />
       </nav>
       <ul className="socials">
+      <li>
+              <a target="_blank"
+              rel="noreferrer"
+              href={resume}
+              >
+                  <FontAwesomeIcon icon={faFile} color="grey" className="anchor-icon" />
+              </a>
+          </li>
           <li>
               <a target="_blank"
               rel="noreferrer"
