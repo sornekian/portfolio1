@@ -24,7 +24,7 @@ export default function About() {
           />
         </h1>
         <p>
-          I'm a young, ambitious, American Armenian full-stack developer looking
+          I'm a young, ambitious, full-stack software engineer looking
           for a role in an established company with the opportunity to work with
           challenging and diverse projects.
         </p>
@@ -37,6 +37,14 @@ export default function About() {
           I believe it's important to always keep up to date with the latest
           trends and technologies in my field and to always keep an open mind
           to expand my skills and knowledge.
+        </p>
+        <p>
+          In my free time, I enjoy playing tennis and building computers for gaming. 
+          These hobbies not only provide me with a sense of relaxation and enjoyment, 
+          but they also allow me to stay active and improve my problem-solving skills. 
+          As a software engineer, I have a keen interest in understanding how hardware 
+          and software work together, and building computers for gaming has given me 
+          a deep appreciation for the intricacies of these systems.
         </p>
       </div>
     </div>
