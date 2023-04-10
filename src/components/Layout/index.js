@@ -6,8 +6,8 @@ export default function Layout() {
   return (
     <div className="App">
       <Sidebar />
-      {/* <div className="page">
-        <span className="tags top-tags">&lt;body&gt;</span> */}
+      <div className="page">
+        {/* <span className="tags top-tags">&lt;body&gt;</span> */}
 
         <Outlet />
 
@@ -17,6 +17,6 @@ export default function Layout() {
           <span className="bottom-tag-html">&lt;/html&gt;</span>
         </span> */}
       </div>
-    // </div>
+    </div>
   );
 }
