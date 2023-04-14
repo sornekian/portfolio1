@@ -2,6 +2,21 @@ import React, { useState, useEffect } from 'react';
 import './index.scss';
 import AnimatedLetters from '../AnimatedLetters';
 import Loader from 'react-loaders';
+import javascript from '../../assets/images/javascript.svg';
+import html from '../../assets/images/html5.svg';
+import css from '../../assets/images/css3.svg';
+import django from '../../assets/images/django.svg';
+import express from '../../assets/images/expressjs.svg';
+import git from '../../assets/images/git.svg';
+import github from '../../assets/images/github.svg';
+import mongodb from '../../assets/images/mongodb.svg';
+import nodejs from '../../assets/images/nodejs.svg';
+import postgresql from '../../assets/images/postgresql.svg';
+import python from '../../assets/images/python.svg';
+import react from '../../assets/images/react.svg';
+import sass from '../../assets/images/sass.svg';
+import aws from '../../assets/images/aws.svg';
+import heroku from '../../assets/images/heroku.svg';
 
 export default function About() {
   const [letterClass, setLetterClass] = useState('text-animate');
@@ -48,6 +63,25 @@ export default function About() {
         </p>
       </div>
     </div>
+
+    <div id="tech-grid">
+      <div className="tech-grid-item"><img src={javascript} alt="" /></div>
+      <div className="tech-grid-item"><img src={html} alt="" /></div>
+      <div className="tech-grid-item"><img src={css} alt="" /></div>
+      <div className="tech-grid-item"><img src={django} alt="" /></div>
+      <div className="tech-grid-item"><img src={express} alt="" /></div>
+      <div className="tech-grid-item"><img src={mongodb} alt="" /></div>
+      <div className="tech-grid-item"><img src={nodejs} alt="" /></div>
+      <div className="tech-grid-item"><img src={python} alt="" /></div>
+      <div className="tech-grid-item"><img src={git} alt="" /></div>
+      <div className="tech-grid-item"><img src={github} alt="" /></div>
+      <div className="tech-grid-item"><img src={react} alt="" /></div>
+      <div className="tech-grid-item"><img src={sass} alt="" /></div>
+      <div className="tech-grid-item"><img src={postgresql} alt="" /></div>
+      <div className="tech-grid-item"><img src={aws} alt="" /></div>
+      <div className="tech-grid-item"><img src={heroku} alt="" /></div>
+    </div>
+
     <Loader type="pacman" />
     </>
   );
