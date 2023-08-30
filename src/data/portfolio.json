@@ -27,6 +27,13 @@
             "description": "A unique card game experience",
             "technology": "HTML, CSS, JavaScript",
             "url": "https://sornekian.github.io/Blackjack-Game/"
+        },
+        {
+            "cover": "/portfolio/1/covid.png",
+            "title": "Community Test Lab",
+            "description": "At-home Covid-19 Reporting",
+            "technology": "React Native, TypeScript, Tailwind",
+            "url": "https://github.com/sramalho94/TOP_Frontend"
         }
     ]
 }
