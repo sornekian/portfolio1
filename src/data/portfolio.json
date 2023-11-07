@@ -33,7 +33,14 @@
             "title": "Community Test Lab",
             "description": "At-home Covid-19 Reporting",
             "technology": "React Native, TypeScript, Tailwind",
-            "url": "https://github.com/sramalho94/TOP_Frontend"
+            "url": "https://www.youtube.com/watch?v=MCWB_YQBbic&ab_channel=StephanRamalho"
+        },
+        {
+            "cover": "/portfolio/1/Platepilot.png",
+            "title": "Plate Pilot",
+            "description": "Restaurant Randomizer",
+            "technology": "React, MongoDB",
+            "url": "https://plate-pilot.onrender.com/"
         }
     ]
 }
