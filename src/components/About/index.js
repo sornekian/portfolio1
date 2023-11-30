@@ -17,6 +17,11 @@ import react from '../../assets/images/react.svg'
 import sass from '../../assets/images/sass.svg'
 import aws from '../../assets/images/aws.svg'
 import heroku from '../../assets/images/heroku.svg'
+import docker from '../../assets/images/docker.svg'
+import tailwind from '../../assets/images/tailwind.svg'
+import typescript from '../../assets/images/typescript.svg'
+import mongoose from '../../assets/images/mongoose.svg'
+import restapi from '../../assets/images/restapi.svg'
 
 export default function About() {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -109,6 +114,21 @@ export default function About() {
         </div>
         <div className="tech-grid-item">
           <img src={heroku} alt="" />
+        </div>
+        <div className="tech-grid-item">
+          <img src={tailwind} alt="" />
+        </div>
+        <div className="tech-grid-item">
+          <img src={typescript} alt="" />
+        </div>
+        <div className="tech-grid-item">
+          <img src={docker} alt="" />
+        </div>
+        <div className="tech-grid-item">
+          <img src={mongoose} alt="" />
+        </div>
+        <div className="tech-grid-item">
+          <img src={restapi} alt="" />
         </div>
       </div>
 
