@@ -87,7 +87,7 @@ export default function Home() {
           <img src={selfie} alt="selfie" />
         </div>
       </div>
-      <Loader type="pacman" />
+      <Loader type="ball-clip-rotate-multiple" />
     </>
   )
 }
