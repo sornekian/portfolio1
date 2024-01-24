@@ -8,13 +8,6 @@
             "url": "https://apg.herokuapp.com/"
         },
         {
-            "cover": "/portfolio/1/cosmiccompanion.png",
-            "title": "Cosmic Companion",
-            "description": "Cosmic Event Tracker",
-            "technology": "Python3, Django, PostgreSQL",
-            "url": "https://cosmiccompanion.herokuapp.com/"
-        },
-        {
             "cover": "/portfolio/1/hyemuscle.png",
             "title": "Hye Muscle",
             "description": "Muscle Car Form",
