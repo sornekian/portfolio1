@@ -44,18 +44,11 @@ export default function About() {
             />
           </h1>
           <p>
-            I am a Los Angeles-based Full Stack Software Engineer with a strong
-            technical background and a focus on creating innovative digital
-            solutions. Exceptional communicator, problem solver, and time
-            manager, I thrive under pressure while maintaining a high level of
-            accountability. My adaptability and commitment to continuous
-            learning make me an asset in rapidly changing technology
-            environments.
-          </p>
-          <p>
-            I believe it's important to always keep up to date with the latest
-            trends and technologies in my field and to always keep an open mind
-            to expand my skills and knowledge.
+            I am an adaptable and hard working Junior Software Engineer, who
+            thrives under pressure and has a strong technical background,
+            focusing on creating innovative digital solutions. I am highly
+            motivated for continuous learning as I am searching for the
+            opportunity to grow as a professional developer.
           </p>
           <p>
             In my free time, I enjoy playing tennis and building computers for
@@ -65,6 +58,11 @@ export default function About() {
             interest in understanding how hardware and software work together,
             and building computers for gaming has given me a deep appreciation
             for the intricacies of these systems.
+          </p>
+          <p>
+            I believe it's imperative to remain up to date with the latest
+            trends and technologies in this field and to always keep an open
+            mind in order to expand my skills and knowledge.
           </p>
         </div>
       </div>
