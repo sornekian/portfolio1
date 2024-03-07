@@ -48,9 +48,9 @@ const Contact = () => {
             />
           </h1>
           <p>
-            Thank you for visiting my website. If you have any questions or
+            I appreciate you visiting my website. If you have any questions or
             would like to discuss potential work opportunities, please don't
-            hesitate to contact me.
+            hesitate to contact me. Thank you!
           </p>
           <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>
