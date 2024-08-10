@@ -1,36 +1,43 @@
 .nav-bar {
-    background: #000000;
+    background: black;
     width: 100%;
     height: 80px;
-    /* Adjust the height as needed */
     position: fixed;
     top: 0;
     z-index: 3;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     padding: 0 20px;
-    /* Add padding for spacing */
+}
 
-    .logo {
-        display: block;
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+}
 
-        img {
-            display: block;
-            margin: 0 auto;
-            width: 75px;
-            height: auto;
-        }
-    }
+// .logo {
+//     margin-right: 20px;
+
+//     img {
+//         display: block;
+//         width: 75px;
+//         height: auto;
+//     }
+// }
+
+.nav-items {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
 }
 
 nav {
     display: flex;
     align-items: center;
-    text-align: center;
-    position: relative;
-    height: 100%;
-    margin: 0;
+    justify-content: center;
     width: auto;
 
     a {
@@ -38,29 +45,20 @@ nav {
         color: #FF7F00;
         display: flex;
         flex-direction: column;
-        /* Align items in a column */
         align-items: center;
-        /* Center items horizontally */
         justify-content: center;
-        /* Center items vertically */
-        padding: 0 20px;
-        /* Add padding for spacing */
+        padding: 0 15px;
         height: 100%;
         text-decoration: none;
         position: relative;
         transition: color 0.3s ease-out;
 
-        i {
-            transition: all 0.3s ease-out;
-        }
-
         &:after {
             content: attr(data-text);
             font-size: 12px;
-            letter-spacing: 2px;
+            letter-spacing: 1px;
             position: absolute;
-            bottom: -2px;
-            /* Position the label below the icon */
+            bottom: -30px;
             display: block;
             width: 100%;
             text-align: center;
@@ -70,7 +68,6 @@ nav {
 
         &:hover:after {
             opacity: 1;
-            /* Show the label on hover */
         }
     }
 
@@ -83,24 +80,47 @@ nav {
 
 .socials {
     display: flex;
+    align-items: center;
     list-style: none;
-    margin: 0;
     padding: 0;
+    margin: -5px;
+}
 
-    li {
-        margin-left: 15px;
+.socials li {
+    margin: 0;
+    position: auto;
 
-        a {
-            font-size: 19px;
-            line-height: 17px;
-            color: grey;
+    a {
+        color: #ffffff;
+        font-size: 22px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transition: color 0.3s ease;
+        padding: auto;
 
-            &:hover {
-                .anchor-icon {
-                    color: #FF7F00;
-                }
-            }
+        &:hover {
+            color: #FF7F00;
         }
+    }
+
+    &::after {
+        content: attr(data-text);
+        font-size: 12px;
+        letter-spacing: 1px;
+        position: absolute;
+        bottom: -30px;
+        display: block;
+        width: 100%;
+        text-align: center;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        color: #ffffff;
+    }
+
+    a:hover::after {
+        opacity: 1;
     }
 }
 
@@ -113,55 +133,58 @@ nav {
     .nav-bar {
         height: auto;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
         padding: 10px;
+    }
 
-        ul,
-        nav,
-        .logo {
-            display: none;
+    .nav-container {
+        flex-direction: column;
+    }
+
+    .logo {
+        margin-bottom: 10px;
+    }
+
+    nav {
+        width: 100%;
+        background: #181819;
+        margin: 0;
+
+        a {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 10px 20px;
+
+            &::after {
+                margin-left: 10px;
+                position: initial;
+                opacity: 1;
+            }
+
+            svg {
+                opacity: 1 !important;
+            }
         }
 
-        nav {
+        &.mobile-show {
+            display: flex;
+            flex-direction: column;
             width: 100%;
-            background: #181819;
-            margin: 0;
-            position: fixed;
-            top: 80px;
-            /* Position below the logo on mobile */
-            left: 0;
-            z-index: 2;
-
-            a {
-                display: flex;
-                flex-direction: column;
-                justify-content: flex-start;
-                padding: 10px 20px;
-
-                &::after {
-                    margin-left: 10px;
-                    position: initial;
-                    opacity: 1;
-                }
-
-                svg {
-                    opacity: 1 !important;
-                }
-            }
-
-            &.mobile-show {
-                display: flex;
-                flex-direction: column;
-                width: 100%;
-            }
         }
+    }
 
-        .hamburger-icon,
-        .close-icon {
-            display: block;
-            position: absolute;
-            top: 15px;
-            right: 15px;
-        }
+    .socials {
+        position: static;
+        margin: 0;
+        bottom: initial;
+    }
+
+    .hamburger-icon,
+    .close-icon {
+        display: block;
+        position: absolute;
+        top: 15px;
+        right: 15px;
     }
 }

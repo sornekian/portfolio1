@@ -10,10 +10,10 @@ export default function Home() {
 
   const phraseArray = [
     'H',
-    'e',
-    'l',
-    'l',
     'o',
+    'w',
+    'd',
+    'y',
     ',',
     '',
     'm',
