@@ -40,7 +40,7 @@
         }
 
         &::after {
-            content: '<h1/>';
+            content: '</h1>';
             font-family: 'La Belle Aurore';
             color: #FF7F00;
             font-size: 18px;
@@ -83,6 +83,7 @@
 }
 
 @media screen and (max-width: 1200px) {
+
     .tags,
     .home-page h1::before,
     .home-page h1::after {
