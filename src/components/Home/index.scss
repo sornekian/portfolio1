@@ -28,27 +28,27 @@
         font-family: 'Coolvetica';
         font-weight: 400;
 
-        &::before {
-            content: '<h1>';
-            font-family: 'La Belle Aurore';
-            color: #FF7F00;
-            font-size: 18px;
-            position: absolute;
-            margin-top: -40px;
-            left: 15px;
-            animation: fadeIn 1s 1.7s backwards;
-        }
+        // &::before {
+        //     content: '<h1>';
+        //     font-family: 'La Belle Aurore';
+        //     color: #FF7F00;
+        //     font-size: 18px;
+        //     position: absolute;
+        //     margin-top: -40px;
+        //     left: 15px;
+        //     animation: fadeIn 1s 1.7s backwards;
+        // }
 
-        &::after {
-            content: '</h1>';
-            font-family: 'La Belle Aurore';
-            color: #FF7F00;
-            font-size: 18px;
-            position: absolute;
-            margin-top: 130px;
-            left: 15px;
-            animation: fadeIn 1s 1.7s backwards;
-        }
+        // &::after {
+        //     content: '</h1>';
+        //     font-family: 'La Belle Aurore';
+        //     color: #FF7F00;
+        //     font-size: 18px;
+        //     position: absolute;
+        //     margin-top: 130px;
+        //     left: 15px;
+        //     animation: fadeIn 1s 1.7s backwards;
+        // }
     }
 
     h2 {
