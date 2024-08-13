@@ -1,6 +1,12 @@
+contact-page {
+    .text-zone {
+        margin-top: 10%;
+    }
+}
+
 .contact-form {
     width: 100%;
-    margin-top: 20px;
+    margin-top: 17px;
 
     ul {
         padding: 0;
@@ -36,10 +42,10 @@
     input[type='email'] {
         width: 100%;
         border: 0;
-        background: #0d345a;
+        background: #25063d;
         height: 50px;
         font-size: 16px;
-        color: white;
+        color: rgb(255, 255, 255);
         padding: 0 20px;
         box-sizing: border-box;
     }
@@ -47,10 +53,10 @@
     textarea {
         width: 100%;
         border: 0;
-        background: #0d345a;
+        background: #25063d;
         height: 50px;
         font-size: 16px;
-        color: white;
+        color: rgb(255, 255, 255);
         padding: 20px;
         min-height: 150px;
         box-sizing: border-box;
@@ -76,7 +82,7 @@
 
 .info-map {
     position: absolute;
-    background-color: #0d345a;
+    background-color: #0d335a00;
     top: 50px;
     right: 30%;
     z-index: 999999;

@@ -85,12 +85,12 @@ const Contact = () => {
           </div>
         </div>
         <div className="info-map">
-          Sarven Ornekian
+          {/* Sarven Ornekian
           <br />
           Chatsworth, CA
           <br />
           United States
-          <br />
+          <br /> */}
         </div>
         <div className="map-wrap">
           <MapContainer center={[34.257274, -118.570976]} zoom={13}>

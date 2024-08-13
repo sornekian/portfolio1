@@ -5,12 +5,14 @@
     position: initial;
     height: 100%;
     overflow: auto;
-    margin-top: 5%;
+    margin-top: 8%;
 
     h1.page-title {
         margin-left: 100px;
-        margin-top: 110px;
+    }
 
+    .page-title {
+        margin-top: 10%;
     }
 
     .images-container {

@@ -1,6 +1,8 @@
 .home-page {
+    margin-top: 5%;
+
     .text-zone {
-        position: relative;
+        position: center;
         left: 8%;
         top: 10%;
         transform: translate(10%);
@@ -11,13 +13,14 @@
     .picture-box {
         flex: 1;
         margin-left: 50%;
-        position: absolute;
+        position: relative;
 
         img {
             max-width: 100%;
             height: auto;
             border-radius: 8px;
             animation: fadeIn 3s 2.7s backwards;
+            vertical-align: middle;
         }
     }
 
@@ -27,28 +30,6 @@
         margin: 0;
         font-family: 'Coolvetica';
         font-weight: 400;
-
-        // &::before {
-        //     content: '<h1>';
-        //     font-family: 'La Belle Aurore';
-        //     color: #FF7F00;
-        //     font-size: 18px;
-        //     position: absolute;
-        //     margin-top: -40px;
-        //     left: 15px;
-        //     animation: fadeIn 1s 1.7s backwards;
-        // }
-
-        // &::after {
-        //     content: '</h1>';
-        //     font-family: 'La Belle Aurore';
-        //     color: #FF7F00;
-        //     font-size: 18px;
-        //     position: absolute;
-        //     margin-top: 130px;
-        //     left: 15px;
-        //     animation: fadeIn 1s 1.7s backwards;
-        // }
     }
 
     h2 {
@@ -102,15 +83,18 @@
             max-width: 60%;
             max-height: 60%;
             animation: fadeIn 3s 2.7s backwards;
+            position: ato;
+            ;
         }
 
         .text-zone {
-            position: initial;
+            position: center;
             width: 100%;
             transform: none;
             padding: 10px;
             box-sizing: border-box;
             margin-top: 15%;
+            text-align: center;
         }
 
         .flat-button {

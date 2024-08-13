@@ -1,6 +1,5 @@
-import { Link, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { useState } from "react";
-import LogoS from '../../assets/images/logo-s.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHome, faUser, faEnvelope, faPuzzlePiece, faBars, faClose, faFile } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
@@ -27,7 +26,6 @@ export default function Sidebar() {
             <NavLink onClick={() => setShowNav(false)} exact="true" activeclassname="active" className="contact-link" to="/contact" data-text="Contact">
               <FontAwesomeIcon icon={faEnvelope} />
             </NavLink>
-          </div>
           <ul className="socials">
             <li>
               <a target="_blank" rel="noreferrer" href={resume} data-text="Resume">
@@ -45,8 +43,9 @@ export default function Sidebar() {
               </a>
             </li>
           </ul>
-          <FontAwesomeIcon onClick={() => setShowNav(true)} icon={faBars} color="#FF7F00" size="3x" className="hamburger-icon" />
+          <FontAwesomeIcon onClick={() => setShowNav(true)} icon={faBars} color="red" size="3x" className="hamburger-icon" />
           <FontAwesomeIcon onClick={() => setShowNav(false)} icon={faClose} color="#FF7F00" size="3x" className="close-icon" />
+          </div>
         </div>
       </nav>
     </div>
