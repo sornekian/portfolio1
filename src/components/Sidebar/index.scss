@@ -2,7 +2,7 @@
     background: black;
     width: 100%;
     height: 80px;
-    position: fixed;
+    position: auto;
     top: 0;
     z-index: 3;
     display: flex;
@@ -124,33 +124,65 @@ nav {
 @media screen and (max-width: 1200px) {
     .nav-bar {
         height: auto;
-        flex-direction: column;
-        align-items: center;
-        padding: 10px;
+        width: auto;
+        flex-direction: flex;
+        align-items: auto;
+        padding: 0;
+        background: linear-gradient(to bottom, #000000, #260c38);
     }
 
     .nav-container {
         flex-direction: column;
+        width: 100%;
     }
 
     .nav-items,
     .socials {
         display: none;
         flex-direction: column;
-        background: #181819;
         width: 0%;
+        text-align: center;
+        background: #090413;
     }
 
     .mobile-show .nav-items,
     .mobile-show .socials {
         display: flex;
-        padding: 5px;
+        padding: 20px 0;
+    }
+
+    .nav-items a,
+    .socials li a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 0;
+        text-decoration: none;
+        color: #FF7F00;
+        font-size: 16px;
+    }
+
+    .nav-items a::before,
+    .socials li a::before {
+        content: attr(data-text);
+        display: block;
+        font-size: 16px;
+        letter-spacing: 1px;
+        color: #FF7F00;
+        transition: color 0.3s ease;
+    }
+
+    .nav-items a:hover::before,
+    .socials li a:hover::before {
+        color: #ffffff;
     }
 
     .hamburger-icon {
         display: block;
         cursor: pointer;
         color: #FF7F00;
+        font-size: 3rem;
+        z-index: 3;
     }
 
     .close-icon {
@@ -165,13 +197,13 @@ nav {
         display: block;
         cursor: pointer;
         color: #FF7F00;
+        font-size: 3rem;
+        z-index: 3;
     }
 
-    /* Remove data-text tooltips */
-    .nav-items a::after,
-    .socials li a::after {
-        content: none;
-        /* Remove the pseudo-element content */
+    /* Hide icons and only show data-text in mobile view */
+    .nav-items a svg,
+    .socials li a svg {
+        display: none;
     }
-
 }
