@@ -18,16 +18,6 @@
     width: auto;
 }
 
-// .logo {
-//     margin-right: 20px;
-
-//     img {
-//         display: block;
-//         width: 75px;
-//         height: auto;
-//     }
-// }
-
 .nav-items {
     display: flex;
     align-items: center;
@@ -124,11 +114,13 @@ nav {
     }
 }
 
+/* Default (Desktop) Styles */
 .hamburger-icon,
 .close-icon {
     display: none;
 }
 
+/* Mobile Styles */
 @media screen and (max-width: 1200px) {
     .nav-bar {
         height: auto;
@@ -141,50 +133,45 @@ nav {
         flex-direction: column;
     }
 
-    .logo {
-        margin-bottom: 10px;
-    }
-
-    nav {
-        width: 100%;
-        background: #181819;
-        margin: 0;
-
-        a {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            padding: 10px 20px;
-
-            &::after {
-                margin-left: 10px;
-                position: initial;
-                opacity: 1;
-            }
-
-            svg {
-                opacity: 1 !important;
-            }
-        }
-
-        &.mobile-show {
-            display: flex;
-            flex-direction: column;
-            width: 100%;
-        }
-    }
-
+    .nav-items,
     .socials {
-        position: static;
-        margin: 0;
-        bottom: initial;
+        display: none;
+        flex-direction: column;
+        background: #181819;
+        width: 0%;
     }
 
-    .hamburger-icon,
-    .close-icon {
-        display: block;
-        position: absolute;
-        top: 15px;
-        right: 15px;
+    .mobile-show .nav-items,
+    .mobile-show .socials {
+        display: flex;
+        padding: 5px;
     }
+
+    .hamburger-icon {
+        display: block;
+        cursor: pointer;
+        color: #FF7F00;
+    }
+
+    .close-icon {
+        display: none;
+    }
+
+    .mobile-show .hamburger-icon {
+        display: none;
+    }
+
+    .mobile-show .close-icon {
+        display: block;
+        cursor: pointer;
+        color: #FF7F00;
+    }
+
+    /* Remove data-text tooltips */
+    .nav-items a::after,
+    .socials li a::after {
+        content: none;
+        /* Remove the pseudo-element content */
+    }
+
 }

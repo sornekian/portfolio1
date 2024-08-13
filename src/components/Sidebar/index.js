@@ -14,9 +14,6 @@ export default function Sidebar() {
     <div className='nav-bar'>
       <nav className={showNav ? `mobile-show` : ''}>
         <div className="nav-container">
-          {/* <Link className='logo' to='/'>
-            <img src={LogoS} alt="logo" />
-          </Link> */}
           <div className="nav-items">
             <NavLink onClick={() => setShowNav(false)} exact="true" activeclassname="active" to="/" data-text="Home">
               <FontAwesomeIcon icon={faHome} />
