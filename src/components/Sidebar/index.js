@@ -43,9 +43,9 @@ export default function Sidebar() {
               </a>
             </li>
           </ul>
+          </div>
           <FontAwesomeIcon onClick={() => setShowNav(true)} icon={faBars} color="red" size="3x" className="hamburger-icon" />
           <FontAwesomeIcon onClick={() => setShowNav(false)} icon={faClose} color="#FF7F00" size="3x" className="close-icon" />
-          </div>
         </div>
       </nav>
     </div>
