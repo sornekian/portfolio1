@@ -13,11 +13,12 @@
     .picture-box {
         flex: 1;
         margin-left: 50%;
-        position: relative;
+        position: static;
+        margin-top: -150px;
 
         img {
             max-width: 100%;
-            height: auto;
+            height: 100%;
             border-radius: 8px;
             animation: fadeIn 3s 2.7s backwards;
             vertical-align: middle;
@@ -73,7 +74,7 @@
 
     .home-page {
         .picture-box {
-            position: relative;
+            position: auto;
             bottom: 0;
             opacity: 1;
             margin-left: 30%;
@@ -83,8 +84,7 @@
             max-width: 60%;
             max-height: 60%;
             animation: fadeIn 3s 2.7s backwards;
-            position: ato;
-            ;
+            margin-top: 50%;
         }
 
         .text-zone {
