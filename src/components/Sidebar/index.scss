@@ -1,3 +1,4 @@
+// Desktop Styles 
 .nav-bar {
     background: black;
     width: 100%;
@@ -114,26 +115,28 @@ nav {
     }
 }
 
-/* Default (Desktop) Styles */
 .hamburger-icon,
 .close-icon {
     display: none;
 }
 
-/* Mobile Styles */
+// Mobile Styles
 @media screen and (max-width: 1200px) {
     .nav-bar {
         height: auto;
-        width: auto;
-        flex-direction: flex;
-        align-items: auto;
+        width: 100%;
+        flex-direction: center;
+        align-items: center;
         padding: 0;
-        background: linear-gradient(to bottom, #000000, #260c38);
+        background: transparent;
+        margin-top: 5%;
+        position: relative;
     }
 
     .nav-container {
         flex-direction: column;
         width: 100%;
+        position: relative;
     }
 
     .nav-items,
@@ -142,7 +145,7 @@ nav {
         flex-direction: column;
         width: 0%;
         text-align: center;
-        background: #090413;
+        background: linear-gradient(to bottom, #000000, #260c38);
     }
 
     .mobile-show .nav-items,
@@ -201,7 +204,6 @@ nav {
         z-index: 3;
     }
 
-    /* Hide icons and only show data-text in mobile view */
     .nav-items a svg,
     .socials li a svg {
         display: none;
