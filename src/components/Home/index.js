@@ -2,7 +2,6 @@ import { Link } from 'react-router-dom'
 import { useState, useEffect } from 'react'
 import AnimatedLetters from '../AnimatedLetters'
 import Loader from 'react-loaders'
-import selfie from '../../assets/selfie.png'
 import './index.scss'
 
 export default function Home() {
@@ -80,9 +79,6 @@ export default function Home() {
           <Link to="/contact" className="flat-button">
             Contact Me
           </Link>
-        </div>
-        <div className="picture-box">
-          <img src={selfie} alt="selfie" />
         </div>
       </div>
       <Loader type="ball-clip-rotate-multiple" />
